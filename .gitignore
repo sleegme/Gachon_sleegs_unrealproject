@@ -1,0 +1,53 @@
+# Visual Studio / Rider / VSCode
+.vs/
+.vscode/
+.idea/
+
+# Unreal generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Build outputs
+Build/*
+
+# But keep platform/icon/build config if you use them
+!Build/**/*.ico
+!Build/**/*.png
+!Build/**/*.icns
+!Build/**/*.target
+!Build/**/*.modules
+!Build/**/*.version
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Logs / temp
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Crash / local files
+*.pidb
+*.sln.docstates
+
+# Generated project files
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Optional: ignore packaged builds
+Packaged/
